@@ -101,6 +101,13 @@ font-size: 14px;
     display: flex;
     justify-content: center;
 }
+.contacts{
+    font-size: 30px ;
+    
+}
+.email-address{
+    font-size: 20px;
+}
     
 }
     
