@@ -26,6 +26,10 @@ font-size: 96px;
 h2{
     font-size: 48px;
 }
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 p{
 font-size: 18px;
@@ -98,6 +102,13 @@ padding: 20px 25px;
     border-radius: 4px;
     text-decoration: none;
 
+}
+.myWorks{
+    font-size: 64px;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    text-align: left;
+    
 }
 
 .email-address{
