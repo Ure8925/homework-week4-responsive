@@ -16,19 +16,27 @@ body{
 h1,h2,h3,
 h4, h5, h6{
     font-family: var(--heading-font-family);
-    text-align: center;
+    
+
 }
 
 h1{
 font-size: 96px;
+text-align: center;
 }
 
 h2{
     font-size: 48px;
+    text-align: center;
+
 }
+
 h3 {
     font-size: 24px;
     font-weight: bold;
+}
+a{
+text-decoration: none;
 }
 
 p{
