@@ -128,10 +128,37 @@ padding: 20px 25px;
 max-width: 150px;
 }
 
+nav{
+    padding: 20px 0;
+}
+
 nav li{
     display: inline;
-    margin: 0;
-    padding: 0;
+     line-height: 40px;
+     font-family: var(--default-font-family);
+     font-size: 16px;
+    
+}
+
+nav ul{
+padding: 0;
+margin: 0;
+ list-style: none;
+}
+
+nav a{
+color: 
+#272142;
+margin-left: 12px;
+transition: all 100ms ease-in-out;
+
+}
+nav a:hover{
+    color: var(--primary-color);
+}
+
+nav li.active a {
+    color: var(--primary-color);
 }
 
 .email-address{
@@ -146,12 +173,9 @@ nav li{
 .email-address:hover{
     text-decoration: underline;
 }
-nav ul{
-    list-style: none;
-}
 
 @media(max-width:900px) {
-h1{
+h1,.myWorks{
     text-align: center;
     font-size: 48px;
 }
@@ -164,10 +188,12 @@ p{
 text-align: center;
 font-size: 14px;
 }
+
 .button-link{
     display: flex;
     justify-content: center;
 }
+
 .contacts{
     font-size: 30px ;
     
@@ -183,6 +209,10 @@ font-size: 14px;
 
 .about-info h1{
     font-size: 48px;
+}
+
+nav ul {
+    text-align: center;
 }
 
 
